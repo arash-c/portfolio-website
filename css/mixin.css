@@ -1,0 +1,19 @@
+/*
+
+0 - 600px:  phone
+600 - 900px:    Tablet Protrait
+900 - 1200px:   Tablet Landscape
+[1200 - 1800] is where our normal styles apply
+1800px +:   Big Desktop
+
+*/
+/* 
+
+$breakpoint argument choices:
+
+-Phone      320px  iPhone 5/SE
+-Tablet     768px  iPad
+-Desktop    1366px 
+-Big Desktop > 1366px
+415px
+*/

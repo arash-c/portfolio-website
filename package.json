@@ -1,0 +1,20 @@
+{
+  "name": "personal-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lite": "live-server",
+    "scss": "node-sass -o css/ css/ --indent-width 4 --output-style expanded --indent-type space",
+    "watch:scss": "onchange \"css/*.scss\" -- npm run scss",
+    "start": "npm-run-all -p watch:scss lite"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "^1.2.1",
+    "node-sass": "^4.14.1",
+    "npm-run-all": "^4.1.5",
+    "onchange": "^7.0.2"
+  }
+}
